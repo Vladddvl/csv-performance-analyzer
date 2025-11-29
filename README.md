@@ -5,18 +5,18 @@ echo
 
 
 1. Клонируйте репозиторий:
-#Терминал
+   (Терминал)
 git clone https://github.com/yourusername/csv-performance-analyzer.git
 cd csv-performance-analyzer
 
 2. Установка зависимостей:
-#Терминал
+   (Терминал)
 pip install -r requirements.txt
 
 3. Использование:
-#Терминал
+   (Терминал)
 python perfomance_avg.py --files employees.csv --report performance
 
 4. Тестирование:
-#Терминал
+   (Терминал)
 pytest
